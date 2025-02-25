@@ -1,0 +1,17 @@
+﻿@page "/smartTextArea"
+
+<SfSmartTextArea UserRole="@userRole" UserPhrases="@userPhrases" Placeholder="Enter your queries here" @bind-Value="prompt" Width="75%" RowCount="5">
+</SfSmartTextArea>
+
+@code {
+    private string? prompt;
+    public string userRole = "Maintainer of an open-source project replying to GitHub issues";
+    public string[] userPhrases = [
+        "Thank you for contacting us.",
+        "To investigate, We will need a reproducible example as a public Git repository.",
+        "Could you please post a screenshot of NEED_INFO?",
+        "This sounds like a usage question. This issue tracker is intended for bugs and feature proposals. Unfortunately, we don't have the capacity to answer general usage questions and would recommend StackOverflow for a faster response.",
+        "We do not accept ZIP files as reproducible examples.",
+        "Bug report: File not found error occurred in NEED_INFO"
+    ];
+}
