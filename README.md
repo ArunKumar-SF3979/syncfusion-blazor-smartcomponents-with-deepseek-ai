@@ -72,26 +72,13 @@ builder.Services.AddSyncfusionSmartComponents()
 - Set `SelfHosted` to `true`.  
 - Provide the `Endpoint` URL where the model is hosted (e.g., `http://localhost:11434`).  
 
-## Installing and Running the DeepSeek Model  
-Before proceeding, ensure the DeepSeek model is installed and running locally. You can install the model using the following command:  
-
-```sh
-ollama run <model-name>
-```
-
-Replace `<model-name>` with the specific DeepSeek model you want to use. For example:  
-
-```sh
-ollama run deepseek-r1:1.5b
-```
+Before proceeding, ensure the [DeepSeek model is installed and running locally](#installing-and-setting-up-the-deepSeek-model).
 
 Once the model is running, set the `DeploymentName` to match the installed model, such as:  
 
 - `deepseek-r1:1.5b`  
 - `deepseek-r1:7b`  
-- `mistral:7b`  
-
-This setup enables Syncfusion SmartComponents to leverage AI-powered text assistance using the locally hosted DeepSeek model.  
+- `mistral:7b`   
 
 ---
 
