@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Syncfusion.Blazor.DataForm" Version="28.2.7" />
+		<PackageReference Include="Syncfusion.Blazor.SmartComponents" Version="28.2.7" />
+		<PackageReference Include="Syncfusion.Blazor.Themes" Version="28.2.7" />
+	</ItemGroup>
+
+</Project>
